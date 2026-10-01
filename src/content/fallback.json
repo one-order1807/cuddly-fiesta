@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "hero": { "slug": "hero", "enabled": true, "eyebrow": "Café POS · Made in Pune", "heading": "One order. Every table. Zero chaos.", "subheading": "The tablet POS that keeps your kitchen, counter and customers in sync — even offline.", "cta_text": "Get FREE setup", "cta_link": "#contact", "extra": {} },
+    "story": { "slug": "story", "enabled": true, "eyebrow": "How it flows", "heading": "From the first order to the last bill", "extra": { "beats": ["Staff taps New Order", "Cook Bill prints in the kitchen", "More rounds join the same table", "One clean Customer Bill closes it"] } },
+    "features": { "slug": "features", "enabled": true, "eyebrow": "Built for service", "heading": "Everything a café actually needs", "extra": {} },
+    "gallery": { "slug": "gallery", "enabled": true, "eyebrow": "Inside the app", "heading": "Made for a 10-inch tablet", "extra": {} },
+    "pricing": { "slug": "pricing", "enabled": true, "eyebrow": "Pricing", "heading": "Simple plans. Free setup.", "extra": {} },
+    "reviews": { "slug": "reviews", "enabled": true, "eyebrow": "Loved by owners", "heading": "Trusted by cafés across Pune", "extra": {} },
+    "faq": { "slug": "faq", "enabled": true, "eyebrow": "Questions", "heading": "Good to know", "extra": {} },
+    "cta": { "slug": "cta", "enabled": true, "eyebrow": "Ready?", "heading": "Get FREE setup for 6 months", "subheading": "Tell us about your café and we will call you back.", "cta_text": "Talk to us", "cta_link": "#contact", "extra": {} }
+  },
+  "plans": [
+    { "id": "starter", "slug": "starter", "name": "Starter", "badge": null, "best_for": "Single counter café", "price_monthly": 499, "price_yearly": 4999, "original_price": 799, "free_setup_text": "Free setup", "features": [{ "group": "Core", "text": "Order screen + Cook/Customer bills", "included": true }, { "group": "Core", "text": "Thermal printing (2\"/3\")", "included": true }, { "group": "Core", "text": "Kitchen portal", "included": false }], "limits": { "outlets": 1, "users": 2, "printers": 1, "tables": 10 }, "cta_text": "Get started", "highlight": false, "sort_order": 1 },
+    { "id": "growth", "slug": "growth", "name": "Growth", "badge": "Most Popular", "best_for": "Cafés with table service", "price_monthly": 999, "price_yearly": 9999, "original_price": 1499, "free_setup_text": "Free setup", "features": [{ "group": "Core", "text": "Everything in Starter", "included": true }, { "group": "Service", "text": "Tables + live table status", "included": true }, { "group": "Service", "text": "Kitchen portal", "included": true }], "limits": { "outlets": 1, "users": 5, "printers": 2, "tables": 30 }, "cta_text": "Get started", "highlight": true, "sort_order": 2 },
+    { "id": "pro", "slug": "pro", "name": "Pro", "badge": null, "best_for": "Busy restaurants", "price_monthly": 1799, "price_yearly": 17999, "original_price": 2499, "free_setup_text": "Free setup", "features": [{ "group": "Core", "text": "Everything in Growth", "included": true }, { "group": "Insight", "text": "Dashboard + customer loyalty", "included": true }, { "group": "Insight", "text": "GST-ready bills", "included": true }], "limits": { "outlets": 1, "users": 10, "printers": 4, "tables": 60 }, "cta_text": "Get started", "highlight": false, "sort_order": 3 }
+  ],
+  "features": [
+    { "id": "f1", "title": "Cook Bill by round", "summary": "The kitchen only sees what is new — never the first round repeated.", "bullets": ["Prints only the new round", "Per-item notes", "No repeats"], "icon": "ChefHat", "sort_order": 0 },
+    { "id": "f2", "title": "One bill per table", "summary": "Staff see rounds. Customers get one clean consolidated bill.", "bullets": ["Items merged across rounds", "GST optional", "Reprint anytime"], "icon": "Receipt", "sort_order": 1 },
+    { "id": "f3", "title": "Works offline", "summary": "Keeps running with zero internet and syncs when you are back.", "bullets": ["On-device storage", "Auto-sync", "No lost orders"], "icon": "WifiOff", "sort_order": 2 },
+    { "id": "f4", "title": "Live tables", "summary": "Free vs occupied at a glance, with timers and one session per table.", "bullets": ["Occupied timers", "No duplicate tabs", "Takeaway tabs"], "icon": "LayoutGrid", "sort_order": 3 }
+  ],
+  "business_types": [
+    { "id": "b1", "slug": "cafe", "name": "Café", "tagline": "Fast counter + table service", "benefits": ["Quick adds", "Round-wise kitchen tickets"], "flow_steps": ["Order", "Cook bill", "Serve", "Pay"], "sort_order": 0 },
+    { "id": "b2", "slug": "restaurant", "name": "Restaurant", "tagline": "Multi-table dine-in", "benefits": ["Table status", "Kitchen portal"], "flow_steps": ["Seat", "Order", "Cook", "Bill"], "sort_order": 1 },
+    { "id": "b3", "slug": "bakery", "name": "Bakery", "tagline": "Grab-and-go speed", "benefits": ["Barcode ready", "Takeaway tabs"], "flow_steps": ["Scan", "Bill", "Pay"], "sort_order": 2 }
+  ],
+  "gallery": [
+    { "id": "g1", "title": "Order screen", "label": "Ordering", "caption": "One tap adds. Notes per item.", "category": "Ordering", "device_frame": "tablet", "variant": "ordering", "sort_order": 0 },
+    { "id": "g2", "title": "Tables", "label": "Tables", "caption": "Live free / occupied status.", "category": "Tables", "device_frame": "tablet", "variant": "tables", "sort_order": 1 },
+    { "id": "g3", "title": "Kitchen", "label": "Kitchen", "caption": "Only the new round, every time.", "category": "Kitchen", "device_frame": "tablet", "variant": "kitchen", "sort_order": 2 },
+    { "id": "g4", "title": "Billing", "label": "Billing", "caption": "Consolidated customer bill.", "category": "Billing", "device_frame": "tablet", "variant": "billing", "sort_order": 3 }
+  ],
+  "testimonials": [],
+  "faqs": [
+    { "id": "q1", "question": "Does it work without internet?", "answer": "Yes. The app stores everything on the device and syncs when you are back online.", "sort_order": 0 },
+    { "id": "q2", "question": "Which printers are supported?", "answer": "2-inch and 3-inch Bluetooth thermal printers.", "sort_order": 1 },
+    { "id": "q3", "question": "What does free setup include?", "answer": "We set up your menu, tables and printer, and train your staff.", "sort_order": 2 }
+  ],
+  "offers": [
+    { "id": "o1", "title": "Free setup", "popup_headline": "Click to get FREE SETUP for 6 months", "perks": ["Menu upload", "Table creation", "Printer pairing", "Staff training"], "badge": "Limited time", "button_text": "Claim free setup", "link_target": "#contact", "countdown": false, "show_every_days": 3, "audience": "all", "bar_text": "FREE setup for 6 months — limited cafés this month", "bar_color": "#2563EB", "exit_intent_text": "Wait — your free setup is still available." }
+  ],
+  "settings": {
+    "contact": { "whatsapp": "", "email": "", "phone": "", "address": "Pune, Maharashtra", "hours": "Mon–Sat 10:00–19:00" },
+    "brand": { "name": "One-Order", "by": "Cloud Build Tech", "accent": "#2563EB", "trusted_count": 0, "cities": ["Pune"] },
+    "social": { "instagram": "", "linkedin": "", "youtube": "" }
+  },
+  "legal": []
+}
